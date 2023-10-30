@@ -101,12 +101,14 @@ model.save("emotionsdetector.h5")
 
 
 from keras.models import model_from_json
-
+# json file and h5 file will be created
 json_file = open("emotionsdetector.json", "r")
 model_json = json_file.read()
 json_file.close()
 model = model_from_json(model_json)
 model.load_weights("emotionsdetector.h5")
+
+#here a h5 file will be created which will be needed in the future oparation 
 
 label = ['angry','disgust','fear','happy','neutral','sad','surprise']
 
