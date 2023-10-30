@@ -1,2 +1,4 @@
-# Emotion-detection
-The emotion detection project represents a significant advancement in the field of computer vision and facial emotion analysis. Leveraging state-of-the-art techniques in image processing, Convolutional Neural Networks (CNN), and Haar Cascade classifiers, our project has achieved remarkable accuracy in real-time emotion recognition.
+# Face_Emotion_Recognition_Machine_Learning
+Face Emotion Recognition using Machine Learning Python
+
+kaggel link - https://www.kaggle.com/datasets/msambare/fer2013
